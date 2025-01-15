@@ -1,71 +1,75 @@
-# AutoQuote README
 
-This is the README for your extension "AutoQuote". After writing up a brief description, we recommend including the following sections.
+# AutoQuote Extension for Visual Studio Code
+
+**AutoQuote** is a simple yet powerful Visual Studio Code extension designed to make working with single and double quotes more efficient. It enables users to quickly add quoted sections with a comma and space, making your coding workflow smoother. I simply made this because while working on some data science lab times, I found it extremely annoying having to manually put quotes in lists etc.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Insert Single Quotes**: Add a comma, a space, and a pair of single quotes (`''`) at the cursor's position or after the nearest closing quote.
+- **Insert Double Quotes**: Add a comma, a space, and a pair of double quotes (`""`) at the cursor's position or after the nearest closing quote.
+- **Interoperability**: Regardless of the type of closing quote (`'` or `"`), you can choose to insert either single or double quotes.
+- **Cursor Placement**: Automatically positions the cursor between the newly inserted quotes for immediate typing.
 
-For example if there is an image subfolder under your extension project workspace:
+## Commands
 
-\!\[feature X\]\(images/feature-x.png\)
+- **Insert Single Quote**: `ctrl+'` (Windows/Linux) or `cmd+'` (macOS)
+- **Insert Double Quote**: `ctrl+shift+'` (Windows/Linux) or `cmd+shift+'` (macOS)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Usage Examples
 
-## Requirements
+### 1. Inserting Single Quotes
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+**Before**: `"hello|"`
+   
+Press `ctrl+'` (or `cmd+'` on macOS).
 
-## Extension Settings
+**After**: `"hello", '|'`
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+**Before**: `'hello'`
 
-For example:
+Press `ctrl+'`
 
-This extension contributes the following settings:
+**After**: `'hello', '|'`
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+### 2. Inserting Double Quotes
 
-## Known Issues
+**Before**: `'world|'`
+   
+Press `ctrl+shift+'` (or `cmd+shift+'` on macOS).
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+**After**: `'world', "|"`
 
-## Release Notes
+**Before**: `"world|"`
+   
+Press `ctrl+shift+'` (or `cmd+shift+'` on macOS).
 
-Users appreciate release notes as you update your extension.
+**After**: `"world", "|"`
 
-### 1.0.0
+### 3. Inserting Quotes at Cursor
 
-Initial release of ...
+**Before**: `hello|`
+   
+Press `ctrl+'` (or `cmd+'` on macOS).
 
-### 1.0.1
+**After**: `hello, '|''`
 
-Fixed issue #.
+## Demo
+This is a demonstration using commands for both kind of quotes:
 
-### 1.1.0
 
-Added features X, Y, and Z.
+![Demo](https://res.cloudinary.com/dnciaoigz/image/upload/v1736942270/demo_bxrpnn.gif)
 
----
+## Installation
 
-## Following extension guidelines
+1. Open Visual Studio Code.
+2. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or pressing `Ctrl+Shift+X`.
+3. Search for `AutoQuote`.
+4. Click **Install**.
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+## Contributing
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+Contributions are welcome! Please open an issue or a pull request on GitHub.
 
-## Working with Markdown
+## License
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+This extension is licensed under the [MIT License](LICENSE).
