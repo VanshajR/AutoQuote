@@ -10,16 +10,10 @@
 - **Interoperability**: Regardless of the type of closing quote (`'` or `"`), you can choose to insert either single or double quotes.
 - **Cursor Placement**: Automatically positions the cursor between the newly inserted quotes for immediate typing.
 
-<<<<<<< HEAD
 ## Commands
 
 - **Insert Single Quote**: `ctrl+'` (Windows/Linux) or `cmd+'` (macOS)
 - **Insert Double Quote**: `ctrl+shift+'` (Windows/Linux) or `cmd+shift+'` (macOS)
-=======
-For example if there is an image subfolder under your extension project workspace:
-Yeah this wasnt very successfull
-\!\[feature X\]\(images/feature-x.png\)
->>>>>>> bdbf0f82ce0015eca49efa037d91596bbf229b4d
 
 ## Usage Examples
 
