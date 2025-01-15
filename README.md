@@ -1,7 +1,7 @@
 
 # AutoQuote Extension for Visual Studio Code
 
-**AutoQuote** is a simple yet powerful Visual Studio Code extension designed to make working with single and double quotes more efficient. It enables users to quickly add quoted sections with a comma and space, making your coding workflow smoother. I simply made this because while working on some data science lab times, I found it extremely annoying having to manually put quotes in lists etc.
+**AutoQuote** is a simple yet powerful Visual Studio Code extension designed to make working with single and double quotes more efficient. It enables users to quickly add quoted sections with a comma and space, making your coding workflow smoother. I simply made this because while working during some data science lab times, I found it extremely annoying having to manually put quotes in lists etc.
 
 ## Features
 
@@ -68,8 +68,8 @@ This is a demonstration using commands for both kind of quotes:
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or a pull request on GitHub.
+Contributions are welcome! Please open an issue or a pull request on [GitHub](https://github.com/VanshajR/AutoQuote). 
 
 ## License
 
-This extension is licensed under the [MIT License](LICENSE).
+This extension is licensed under the BSD 3-Clause License.
