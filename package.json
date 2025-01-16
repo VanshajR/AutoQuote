@@ -4,7 +4,7 @@
   "displayName": "AutoQuote",
   "description": "Auto close quotes and add commas based on user input.",
   "icon": "logo.png",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.93.0"
   },
@@ -60,13 +60,13 @@
   },
   "dependencies": {},
   "author": "Vanshaj Raghuvanshi",
-  "license": "MIT",
+  "license": "BSD 3-Clause License",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/auto-quote"
+    "url": "https://github.com/VanshajR/AutoQuote"
   },
   "bugs": {
-    "url": "https://github.com/your-username/auto-quote/issues"
+    "url": "https://github.com/VanshajR/AutoQuote/issues"
   },
   "keywords": [
     "quotes",

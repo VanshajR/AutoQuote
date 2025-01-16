@@ -9,9 +9,13 @@
 ### Changed
 - Improved cursor handling for inserting quotes after closing quotes and after the cursor.
   
+## [0.0.3] - 2025-01-15
+### Changed
+- Corrected the links to GitHub.
+- 
 ## [0.0.2] - 2025-01-15
 ### Fixed
-- Corrected the issue where the cursor was placed incorrectly after inserting quotes when a closing quote was present.
+- Corrected the issue where the cursor was placed incorrectly after inserting quotes when a closing quote was present, added icon for the extension.
   
 ## [0.0.1] - 2025-01-10
 ### Initial release
