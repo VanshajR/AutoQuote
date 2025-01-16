@@ -4,6 +4,5 @@ node_modules/
 .vscode/
 .vscode-test/
 *.vsix
-.vscodeignore
-.gitgnore
+.gitignore
 .vscodeignore
