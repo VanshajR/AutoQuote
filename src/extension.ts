@@ -9,7 +9,19 @@ export function activate(context: vscode.ExtensionContext) {
     }
 
     const editor = vscode.window.activeTextEditor;
-    const cursorPosition = editor.selection.active;
+    const selection = editor.selection;
+    const selectedText = editor.document.getText(selection);
+
+    if (!selection.isEmpty) {
+      // If text is selected, wrap it in quotes
+      editor.edit(editBuilder => {
+        editBuilder.replace(selection, `${quoteType}${selectedText}${quoteType}`);
+      });
+      return;
+    }
+
+    // If no text is selected, proceed with original insertion logic
+    const cursorPosition = selection.active;
     const lineText = editor.document.lineAt(cursorPosition.line).text;
 
     // Find the next closing quote of any type after the cursor

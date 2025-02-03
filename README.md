@@ -14,7 +14,7 @@
 
 - **Insert Single Quote**: `ctrl+'` (Windows/Linux) or `cmd+'` (macOS)
 - **Insert Double Quote**: `ctrl+shift+'` (Windows/Linux) or `cmd+shift+'` (macOS)
-
+- **Wrap Text in Quotes**: `ctrl+'` (Windows/Linux) or `cmd+'` (macOS) for single quotes, `ctrl+shift+'` (Windows/Linux) or `cmd+shift+'` (macOS) for double quotes 
 ## Usage Examples
 
 ### 1. Inserting Single Quotes

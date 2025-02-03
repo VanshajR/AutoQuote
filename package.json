@@ -4,7 +4,7 @@
   "displayName": "AutoQuote",
   "description": "Auto close quotes and add commas based on user input.",
   "icon": "logo.png",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.93.0"
   },

@@ -8,7 +8,9 @@
   
 ### Changed
 - Improved cursor handling for inserting quotes after closing quotes and after the cursor.
-  
+## [0.0.4] - 2025-02-03
+### Changed
+- Added functionality of wrapping text in quotes.
 ## [0.0.3] - 2025-01-15
 ### Changed
 - Corrected the links to GitHub.
